@@ -48,10 +48,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#experience">Professional Experience</a>
+              <a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#experience">Publications</a>
+                <a class="nav-link" data-toggle="modal" href="#publications">Publications</a>
               </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -70,7 +70,7 @@
           <div id="typing-container">
             <div id="typing-heading"></div>
           </div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>
         </div>
       </div>
     </header>
@@ -201,7 +201,7 @@
       </div>
     </section>
 
-    <!-- Intro -->
+    <!-- About -->
     <section class="bg-light" id="about">
       <div class="container">
         <div class="row">
@@ -234,29 +234,29 @@
     </section>
 
 
-    <!-- About -->
-    <section id="experience">
+    <!-- Timeline -->
+    <section id="timeline">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Personal Experience</h2>
+            <h2 class="section-heading text-uppercase">Timeline</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <ul class="timeline">
-              <li>
+            <li>
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
+                    <h4>Leading Software Architect - Advancen Parellel Computing Lab @ Atos</h4>
+                    <h6 class="subheading">September 2016 - Present</h6>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Working on H2020 with HPCs and parallel computing applications.</p>
                   </div>
                 </div>
               </li>
@@ -266,11 +266,57 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
+                    <h4>Technical Director - THINC</h4>
+                    <h6 class="subheading">July 2012 - August 2016</h6>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">
+                        Leading the technical group, being responsible of the products and technologies the company is developing as well
+                        as the technologies involved on its administration. Two main lines of working:
+                        1. SENSOR MONITORING: Qmonitor, a general purpose SCADA with Heineken as its main client. Within the frame of the
+                        “Internet of Things”, the goal of this client-server application is to provide a layer between the sensors/controllers
+                        located inside a facility (factories, machinery, fields, fish farms, etc.), and the visualization of the data from the web.
+                        This way the user can monitor the data (including alarms), as well as control and configure the devices remotely.
+                        2. COMPUTER VISION: LINDA, a framework of object selection. This framework have been used successfully in the first
+                        crayfish selection machine of the world located in Isla Mayor (Seville, Spain).
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Software Architect - Virgen del Rocío University Hospital</h4>
+                    <h6 class="subheading">January 2011 - December 2011</h6>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">I was responsible for the research and development of compression techniques to be applied on massive bone
+                      “alografts”, prosthesis and synthetic implant virtual models, as well as surgical planning.
+                      I <em>designed</em> an original compression system for 3D medical images (triangular meshes), leading the team responsible
+                      for its implementation, tests and establishment. Nowadays it is the standard compression method for this type of
+                      images in the hospital. The project involved eight different companies and organizations (FEDER funds).</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Substitute Teacher</h4>
+                    <h6 class="subheading">October 2010 - December 2011</h6>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      I combined my work as a researcher with teaching <em>computer architecture</em> to second grade students, and C classes
+                      to first grade ones, in the Computer Architecture and Technology department until June 2011.
+                      Then I taught <em>artificial ingelligence</em> to fourth grade students, in the Computational Sciences and Artificial
+                      Ingelligence department.
+                    </p>
                   </div>
                 </div>
               </li>
@@ -280,11 +326,15 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
+                    <h4>Computer Science Researcher</h4>
+                    <h6 class="subheading">January 2010 - December 2011</h6>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">
+                      I was researching and designing different hardware algorithms to do <em>topological processing and analysis of images</em>
+                      on <em>FPGAs</em> using the <em>membrane computing</em> paradigm, at the Computational Applied Topology and Applied
+                      Mathematics research group.
+                    </p>
                   </div>
                 </div>
               </li>
@@ -294,11 +344,16 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
+                    <h4>Software Developer (Grant)</h4>
+                    <h6 class="subheading">April 2007 - December 2009</h6>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">
+                      During my studies I obtained three grants to work within a development team at the University of Seville, where I
+                      took part on the design and implementation of three projects requested by different companies (a WEBSITE for disabled
+                      people relatives; two WEB APPLICATIONS for Doñana Biological Station; and a STREAMING SYSTEM similar to youtube).
+                      In this period of time I could put in practice all that I was learning in my degree, working as a team.
+                    </p>
                   </div>
                 </div>
               </li>
@@ -673,6 +728,94 @@
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Publications -->
+    <div class="portfolio-modal modal fade" id="publications" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Publications</h2>
+                  <p class="item-intro text-muted">
+                    As a result of the period as a <span style="color: #ff9900;">researcher</span> and <span style="color: #ff9900;">teacher</span> at the <span style="color: #ff9900;">Applied</span> <span style="color: #ff9900;">Mathematics</span> <span style="color: #ff9900;">Department</span> (University of Seville), I published the papers shown below.
+                  </p>
+                  <div>
+                  <h3><span style="color: #008000;">Triangle Mesh Compression and Homological Spanning Forests</span></h3>
+                  <p>CTIC 2012 J. Carnero, H. Molina‐Abril, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Triangle Mesh Compression Including its Topological Information for Medical Purpouses</span></h3>
+                  <p>CATMI 2011 J. Carnero, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Image Segmentation Using Tissue-Like P Systems with Multiple Auxiliary Cells</span></h3>
+                  <p>Imagen-A, ISSN: 1885­‐4508 R. Reina‐Molina, J. Carnero, D. Díaz-­‐Pernil.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Computational Algebraic Topology Techniques for Automated Analysis of Diabetic Retinopathy Lessons</span></h3>
+                  <p>ACA 2011 J. Carnero, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">A New Approach to Image Segmentation Using Bio-Inspired Models</span></h3>
+                  <p>ACA 2011 J. Carnero, D. Díaz‐Pernil, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Designing Tissue-Like P Systems for Image Segmentation on Parallel Architectures</span></h3>
+                  <p>9 BWMC, ISBN: 978­‐84‐615‐1837‐1 J. Carnero, D. Díaz‐Pernil, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Image Segmentation Inspired by Cellular Models Using Hardware Programming</span></h3>
+                  <p>CTIC 2010, ISSN: 1885‐ 4508 J. Carnero, D. Díaz‐Pernil, H. Molina‐Abril, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Homology-Based Filter for FITS Images</span></h3>
+                  <p>ACA 2010 J. Carnero, D. Monchis‐ Oaca, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">A Free Educational Tool for Visualizing Topological Properties: VOXELO</span></h3>
+                  <p>ACA 2010 A. Berciano, J. Carnero, D. Díaz­‐Pernil, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">DOXELO: Towards a Software for Processing and Visualizing Topology Computations in Doxel-Based 3D+t Images</span></h3>
+                  <p>ACA 2010 J. Carnero, D. Díaz­‐ Pernil, J.L. Mari, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Explotando Moodle como Herramienta de Gestión de Proyectos para Entornos Educativos</span></h3>
+                  <p>CIIP 2010, ISBN: 978‐95­‐ 287‐288‐1 J. Carnero, D. Díaz‐Pernil, P. Real.</p>
+                  </div>
+                  <hr />
+                  <div>
+                  <h3><span style="color: #008000;">Topología Computacional y Computación con Membranas (Poster)</span></h3>
+                  <p>Jornadas Matemáticas Interdisciplinares 2010 J. Carnero, D. Díaz­‐Pernil, P. Real.</p>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
                 </div>
               </div>
             </div>
