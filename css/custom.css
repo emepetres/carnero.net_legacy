@@ -1,4 +1,12 @@
 /* Custom */
+a {
+    color:green;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
 header.masthead {
     background-image: url("../img/brain.jpg");
 }
@@ -48,4 +56,8 @@ header.masthead {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+a.contact {
+    color: #fed136;
 }

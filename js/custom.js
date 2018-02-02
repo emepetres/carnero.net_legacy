@@ -3,6 +3,7 @@ var myQuotes =  new Array();
 
 myQuotes.push("It's Nice To Meet You!");
 myQuotes.push("The lower you fall, the higher you'll fly.");
+myQuotes.push("Homo sum, humani nihil a me alienum puto.");
 myQuotes.push("Where’s your will to be weird?");
 
 var typed = new Typed("#typing-heading", {
