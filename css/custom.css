@@ -61,3 +61,7 @@ header.masthead {
 a.contact {
     color: #fed136;
 }
+
+h3.contact {
+    color: whitesmoke !important;
+}

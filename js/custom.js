@@ -1,10 +1,10 @@
 //Typed intro text
 var myQuotes =  new Array();
 
-myQuotes.push("It's Nice To Meet You!");
-myQuotes.push("The lower you fall, the higher you'll fly.");
-myQuotes.push("Homo sum, humani nihil a me alienum puto.");
-myQuotes.push("Where’s your will to be weird?");
+myQuotes.push("Hey there!");
+myQuotes.push("This is Javi, It's Nice To Meet You!");
+myQuotes.push("You can Take a Glance at my Work if you Like :)");
+myQuotes.push("And don't Hesitate to Contact Me!");
 
 var typed = new Typed("#typing-heading", {
     strings: myQuotes,
@@ -12,8 +12,8 @@ var typed = new Typed("#typing-heading", {
     backSpeed: 20,
     backDelay: 5000,
     startDelay: 200,
-    shuffle: true,
-    loop: true,
+    shuffle: false,
+    loop: false,
     loopCount: false,
     showCursor: true,
     autoInsertCss: true,
