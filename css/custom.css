@@ -66,12 +66,12 @@ h3.contact {
     color: whitesmoke !important;
 }
 
-div.modal-body h2 {
+.portfolio-modal .modal-content h2 {
     font-size: 2em;
 } 
 
 @media (min-width: 992px) {
-    div.modal-body h2 {
+    .portfolio-modal .modal-content h2 {
         font-size: 3em;
     }
 }
